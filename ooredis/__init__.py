@@ -7,7 +7,7 @@ __all__ = [
     '__version__',
 ]
 
-import type_case
+from ooredis.type_case import *
 
 from client import connect, get_client
 
